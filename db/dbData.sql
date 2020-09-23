@@ -1,0 +1,12 @@
+# SELECT TABLES
+SELECT * FROM schedule ORDER BY id ASC;
+SELECT * FROM notification ORDER BY id ASC;
+SELECT * FROM team ORDER BY id ASC;
+SELECT * FROM employee ORDER BY id ASC; 
+SELECT * FROM incident ORDER BY id ASC;
+SELECT * FROM slack_notification ORDER BY id ASC;
+
+# ALTER TABLES
+ALTER TABLE employee AUTO_INCREMENT=1;
+
+# INSERT DATAS
