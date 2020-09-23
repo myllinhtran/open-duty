@@ -9,8 +9,8 @@ import com.twilio.type.PhoneNumber;
 
 public class MakePhoneCall {
     // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "AC514d2acea4e6c50902ca32203457afb0";
-    public static final String AUTH_TOKEN = "3455cc0d4ed487b43c6f721fb681757c";
+    public static final String ACCOUNT_SID = System.getenv("TWILIO_ACCOUNT_SID");
+    public static final String AUTH_TOKEN = System.getenv("TWILIO_AUTH_TOKEN");
 
     public static void main(String[] args) throws URISyntaxException {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
