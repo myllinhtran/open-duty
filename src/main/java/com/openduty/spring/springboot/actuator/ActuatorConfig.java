@@ -23,9 +23,4 @@ public class ActuatorConfig {
     DataSourceStatusProbe dataSourceStatusProbe(DataSource dataSource) {
         return new DataSourceStatusProbe(dataSource);
     }
-
-//    @Bean
-//    private MeterFilter excludeTomcatFilter() {
-//        return MeterFilter.denyNameStartsWith("tomcat");
-//    }
 }
